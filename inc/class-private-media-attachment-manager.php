@@ -86,7 +86,7 @@ class Private_Media_Attachment_Manager {
 	/**
 	 * Create the data directory if needed an add .htaccess file.
 	 *
-	 * .htaccess file redirect to rewrite rulle ULR (/pvtmed/<file>)
+	 * .htaccess file redirect to rewrite rule URL (/pvtmed/<file>)
 	 */
 	public function maybe_setup_directories($reset = false) {
 		// 1) create the data directory
@@ -456,6 +456,15 @@ class Private_Media_Attachment_Manager {
 
 		//create directories
 		if ( ! empty( $subdir ) ) {
+			//main folder
+			//see maybe_setup_directories()
+			/*
+			if ( ! $wp_filesystem->is_dir( $private_dir ) ) {
+				$wp_filesystem->mkdir( $private_dir );
+			}
+			*/
+
+			//subdir
 			$path_fragments = explode( '/', untrailingslashit( $subdir ) );
 			$partial_path   = $destination_basedir;
 
