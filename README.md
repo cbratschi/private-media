@@ -1,13 +1,13 @@
 # Private Media #
 
-**Contributors:** [frogerme](https://profiles.wordpress.org/frogerme/), [cbratschi](https://profiles.wordpress.org/cbratschi/)
-**Tags:** media, uploads, private
-**Requires at least:** 4.9.8
-**Tested up to:** 6.4.3
-**Requires PHP:** 8.0
-**Stable tag:** trunk
-**License:** GPLv2 or later
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
+**Contributors:** [frogerme](https://profiles.wordpress.org/frogerme/), [cbratschi](https://profiles.wordpress.org/cbratschi/)  
+**Tags:** media, uploads, private  
+**Requires at least:** 4.9.8  
+**Tested up to:** 7.0.0  
+**Requires PHP:** 8.0  
+**Stable tag:** trunk  
+**License:** GPLv2 or later  
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
 Add access restrictions to specific items of the WordPress Media Library.
 
@@ -39,6 +39,10 @@ This section describes how to install the plugin and get it working.
 3. Edit Media Privacy Settings on media items in the Media Library
 
 ## Changelog ##
+
+### 1.12 ###
+
+* Display lock icon in red.
 
 ### 1.11 ###
 

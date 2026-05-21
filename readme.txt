@@ -2,7 +2,7 @@
 Contributors: frogerme, cbratschi
 Tags: media, uploads, private
 Requires at least: 4.9.8
-Tested up to: 6.4.3
+Tested up to: 7.0.0
 Requires PHP: 8.0
 Stable tag: trunk
 License: GPLv2 or later
@@ -38,6 +38,9 @@ This section describes how to install the plugin and get it working.
 3. Edit Media Privacy Settings on media items in the Media Library
 
 == Changelog ==
+
+= 1.12 =
+* Display lock icon in red.
 
 = 1.11 =
 * Fixed _load_textdomain_just_in_time warning.
